@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto';
+}
+
+p{
+    font-family: sans-serif;
+}
+
+.encabezado-redes-sociales{
+    background-color:rgb(145, 115, 115);
+    height: 60px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado-redes-sociales i{
+    color:white;
+}
+
+.encabezado-redes-sociales a{
+    margin-right: 15px;
+}
+
+
+nav{
+    height: 80px;
+    background-color: rgb(236, 220, 190);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+nav .nav-imagen-logo img{
+    height: 60px;
+}
+
+nav .nav-menu ul{
+    display: flex;
+}
+
+nav .nav-menu-ul li{
+    margin-right: 20px;
+    list-style: none;
+}
+
+nav .nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    height: 80vh;
+    background-image: url("robot.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center; /*centrar verticalmente*/
+    justify-content: center; /*centrar horinzontalmente*/
+}
+
+.main-section{
+    color: white;
+    text-align: center;
+}
+
+.main-section h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.main-section p{
+    font-size: 20px;
+    margin-top: 0px;
+    font-family: sans-serif;
+}
+
+.main-section button{
+    background-color: thistle;
+    width: 150px;
+    height: 40px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.footer{
+    background-image: linear-gradient(#FBD3E9,#BB377D);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+
+.proyectos-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.proyectos-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyectos-imagen img{
+    width: 400px;
+    margin: 20px;
+    border-radius: 5%;
+}
+
+.informacion{
+    font-family: sans-serif;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+}
+
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.informacion p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.botonera{
+    text-align: center;
+}
+
+.botonera button{
+    background-color: thistle;
+    width: 150px;
+    height: 40px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.chicharron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.grid{
+    display: grid;
+    padding: 2%;
+    gap: 20px;
+    grid-template-columns: repeat(3, 260px);
+    grid-template-rows: repeat(2, 350px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cell{
+    border: 2px solid black;
+    height: 100%;
+    width: auto;
+}
+
+.cell h1{
+    font-family: sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.cell img{
+    width: 150px;
+    margin: 0;
+}
+
+.cell p{
+    font-size: 15px;
+    font-family: monospace;
+    margin: 0;
+}
+
+.cell button{
+    background-color: bisque;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.blog-titulo{
+    text-align: center;
+    margin: 100px;
+}
+
+.blog-titulo h1{
+    font-family: 'Roboto';
+    font-size: 50px;
+    margin: 0;
+}
+
+.blog-titulo p{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.blog-cuerpo{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-contenido{
+    width: 400px;
+}
+
+.blog-contenido p{
+    text-align: justify;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.caf-img{
+    margin-left: 25px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-imagen img{
+    border: 2px solid black;
+    width: 400px;
+    border-radius: 5%;
+}
+
+.autor-bl{
+    display: flex;
+    justify-content: justify;
+}
+
+.imagen-autor{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.imagen-autor img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.textito p{
+    margin: 0;
+    text-align: justify;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.contacto{
+    height: 80vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.contacto img{
+    border-radius: 50%;
+    width: 200px;
+}
+.contacto a{
+    color: black;
+    font-size: 20px;
+}
+
+.acercade{
+    height: 400px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acercade img{
+    border-radius: 5%;
+    width: 300px;
+}
+
+.acercade h1{
+    width: 400px;
+    margin-left: 20px;
+}
+
+.acercade p{
+    width: 400px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-left: 20px;
+}
+
